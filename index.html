@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Personal expense manager</title>
+		<link rel="stylesheet" href="./main.css" />
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<h1>Personal expense manager</h1>
+			</header>
+
+			<main>
+				<section class="expenses">
+					<h2>Bills:</h2>
+					<ul id="expense-list"></ul>
+				</section>
+
+				<section class="new-expense">
+					<h2>Add expense</h2>
+					<form id="expense-form">
+						<input
+							type="text"
+							id="expense-name"
+							placeholder="expense name"
+							required
+						/>
+						<input
+							type="number"
+							id="expense-amount"
+							placeholder="expense amount"
+							required
+						/>
+						<button type="submit">Add</button>
+					</form>
+				</section>
+			</main>
+		</div>
+		<script src="./dist/app.js"></script>
+	</body>
+</html>

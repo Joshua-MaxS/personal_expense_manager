@@ -1,0 +1,117 @@
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	width: 100vw;
+	background-color: #000000;
+	color: #fff;
+}
+
+header {
+	background-color: #060130;
+	border: solid 2px #fff;
+	padding: 20px;
+	text-align: center;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+h1 {
+	font-size: 32px;
+	margin: 0;
+}
+
+section {
+	background-color: #112;
+	border-radius: 15px;
+	padding: 20px;
+	margin-bottom: 20px;
+	max-width: 600px;
+}
+
+button[type='submit'] {
+	padding: 10px 20px;
+	background: #007acc;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+button[type='submit']:hover {
+	background-color: #015396;
+}
+
+.new-expense h2 {
+	font-size: 1.2rem;
+	margin-bottom: 15px;
+	color: #8d8d8d;
+}
+.new-expense {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.new-expense input[type='text'],
+.new-expense input[type='number'] {
+	position: relative;
+	width: 95%;
+	padding: 10px;
+	margin: 0 auto 15px;
+	border-radius: 5px;
+	font-size: 1rem;
+}
+
+.new-expense button {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 1rem;
+}
+
+.new-expense button:hover {
+	background-color: #0056b3;
+}
+
+main .expenses {
+	padding: 20px;
+	border-radius: 8px;
+	margin-top: 20px;
+}
+
+.expenses li {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.expenses li button {
+	background: #fa4242;
+	color: #fff;
+	border: none;
+	padding: 5px 10px;
+	border-radius: 7px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.expenses li button:hover {
+	background-color: #ff1414;
+}
